@@ -135,7 +135,7 @@
   resolved "https://registry.yarnpkg.com/@cucumber/html-formatter/-/html-formatter-20.0.0.tgz#d0958b2d53a6f5ce0fb6f6d7eac88902e9b31030"
   integrity sha512-I6ZzUZ0CkaaPm6QHThoCRmdcuEIV9kJlNjaWvQ3PRkJm0OscQkQ0SXL/j73U30RDPiCAWwtq6ZSeQrgkTnSK+Q==
 
-"@cucumber/message-streams@4.0.1":
+"@cucumber/message-streams@4.0.1", "@cucumber/message-streams@>=4.0.0":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@cucumber/message-streams/-/message-streams-4.0.1.tgz#a5339d3504594bb2edb5732aaae94dddb24d0970"
   integrity sha512-Kxap9uP5jD8tHUZVjTWgzxemi/0uOsbGjd4LBOSxcJoOCRbESFwemUzilJuzNTB8pcTQUh8D5oudUyxfkJOKmA==
@@ -150,7 +150,7 @@
     reflect-metadata "0.1.13"
     uuid "8.3.2"
 
-"@cucumber/messages@20.0.0":
+"@cucumber/messages@20.0.0", "@cucumber/messages@>=17.1.1":
   version "20.0.0"
   resolved "https://registry.yarnpkg.com/@cucumber/messages/-/messages-20.0.0.tgz#494d30bd2880b04dcb3a958f8c0ec5638b7b3596"
   integrity sha512-JFrFwuhxsbig0afaViNhuzoQyC+GQzlI7m+rX+lSiDGV13K3sJzMmHjkbCiNOgoRlKAMwIGR9TRMH0xj9/My0w==
@@ -3360,7 +3360,7 @@ webdriver@7.27.0:
     ky "0.30.0"
     lodash.merge "^4.6.1"
 
-webdriverio@7.27.0:
+webdriverio@7.27.0, webdriverio@^7.0.0:
   version "7.27.0"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-7.27.0.tgz#33adbd8b377aec79eb40a7873da9fc02bdab1b40"
   integrity sha512-xEcpWdbDLTFVP57kxEVniXWL6SNq2hxEMwaXbRck9EiFlhNvVca00oMzYjCVm8jmlL6JYnbfv/u7XyhvkktMIg==
