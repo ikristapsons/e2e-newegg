@@ -19,11 +19,11 @@ When("I click on search button", async () => {
     await searchBtn.click();
 });
 
-Then("I can see item has been found", async () => {
-    const itemCell = await $('.item-title');
+Then("I can see searched item is available for purchase", async () => {
+    const itemCell = await $('.btn-mini');
     await expect(itemCell).toBeExisting();
-    await expect(itemCell).toHaveTextContaining("Windows");
 });
+
 
 When("I click on Todays Best Deals", async () => {
     const bestDeals = await $(`a[id='trendingBanner_720202'] span[class='font-s']`);

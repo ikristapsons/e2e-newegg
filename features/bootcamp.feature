@@ -9,7 +9,7 @@ Scenario: As a user, I can search and find an item in shop
     When I click on searchbar
     * I type in "Windows"
     * I click on search button
-    Then I can see item has been found
+    Then I can see searched item is available for purchase
 
 Scenario: As a user, I can return to main page by pressing the logo
     When I click on Todays Best Deals
